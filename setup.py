@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name = "chakin",
-    version = "0.0.1",
+    version = "0.0.2",
     description = "The downloader of pre-trained word vectors",
     keywords = ["machine learning", "natural language processing", "word embeddings", "downloader"],
     author = "Hironsan",
@@ -17,4 +17,7 @@ setup(
         "pandas>=0.20.1",
         "progressbar2>=3.20.0"
     ],
+    package_data={
+        '': ['*.csv'],
+    }
 )
