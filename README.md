@@ -1,6 +1,6 @@
 # chakin
 <div align="center">
-  <img src="https://github.com/chakki-works/chakin/tree/master/docs/top.jpg"><br><br>
+  <img src="https://github.com/chakki-works/chakin/blob/master/docs/top.jpg?raw=true"><br><br>
 </div>
 
 -----------------
