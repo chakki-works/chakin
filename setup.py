@@ -14,7 +14,7 @@ setup(
         ],
     url = "https://github.com/chakki-works/chakin",
     install_requires=[
-        "requests>=2.14.2",
         "pandas>=0.20.1",
+        "progressbar2>=3.20.0"
     ],
 )
