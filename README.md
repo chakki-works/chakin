@@ -15,21 +15,38 @@ This library lets you download pre-trained word vectors without troublesome work
 
 # Install
 
-```commandline
-pip install chakin
+```shell
+$ pip install chakin
 ```
 
 # Download pre-trained vectors
 You can download pre-trained word vectors as follows:
+
+```shell
+$ python
+```
 
 ```python
 >>> import chakin
 >>> chakin.search(lang='en')
           Name Lang    Method
 0  en-fastText   en  fastText
-1  ja-fastText   ja  fastText
 
 >>> chakin.download(name='en-fastText', save_path='model.vec')
 ```
 
 # Supported vectors
+So far, chakin supports following word vectors:
+
+## fastText
+* Arabic
+* Chinese
+* English
+* French
+* German
+* Italian
+* Japanese
+* Korean
+* Portuguese
+* Russian
+* Spanish

@@ -1,3 +1,12 @@
 Name,Lang,Method,URL,Paper
 en-fastText,en,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.en.vec,Enriching Word Vectors with Subword Information
 ja-fastText,ja,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ja.vec,Enriching Word Vectors with Subword Information
+zh-fastText,zh,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.zh.vec,Enriching Word Vectors with Subword Information
+es-fastText,es,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.es.vec,Enriching Word Vectors with Subword Information
+fr-fastText,fr,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.fr.vec,Enriching Word Vectors with Subword Information
+de-fastText,de,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.de.vec,Enriching Word Vectors with Subword Information
+ko-fastText,ko,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ko.vec,Enriching Word Vectors with Subword Information
+it-fastText,it,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.it.vec,Enriching Word Vectors with Subword Information
+ru-fastText,ru,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ru.vec,Enriching Word Vectors with Subword Information
+pt-fastText,pt,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pt.vec,Enriching Word Vectors with Subword Information
+ar-fastText,ar,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ar.vec,Enriching Word Vectors with Subword Information
