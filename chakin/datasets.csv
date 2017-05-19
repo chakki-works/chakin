@@ -1,0 +1,3 @@
+Name,Lang,Method,URL,Paper
+en-fastText,en,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.en.vec,Enriching Word Vectors with Subword Information
+ja-fastText,ja,fastText,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ja.vec,Enriching Word Vectors with Subword Information
