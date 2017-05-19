@@ -38,15 +38,11 @@ $ python
 # Supported vectors
 So far, chakin supports following word vectors:
 
-## fastText
-* Arabic
-* Chinese
-* English
-* French
-* German
-* Italian
-* Japanese
-* Korean
-* Portuguese
-* Russian
-* Spanish
+
+* fastText
+
+|  |  |  |  |
+|---|---|---|---|
+| Arabic  | Chinese  | English  | French  |
+| German  | Italian  | Japanese  | Korean  |
+| Portuguese  | Russian  | Spanish  |   |
