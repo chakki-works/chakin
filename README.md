@@ -19,7 +19,7 @@ But it is troublesome that you find and download them by yourself.
 $ pip install chakin
 ```
 
-# Download pre-trained vectors
+# Usage
 You can download pre-trained word vectors as follows:
 
 ```shell
