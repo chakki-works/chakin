@@ -28,11 +28,22 @@ $ python
 
 ```python
 >>> import chakin
->>> chakin.search(lang='en')
-          Name Lang    Method
-0  en-fastText   en  fastText
+>>> chakin.search(lang='English')
+                   Name  Dimension                     Corpus VocabularySize  
+2          fastText(en)        300                  Wikipedia           2.5M   
+11         GloVe.6B.50d         50  Wikipedia+Gigaword 5 (6B)           400K   
+12        GloVe.6B.100d        100  Wikipedia+Gigaword 5 (6B)           400K   
+13        GloVe.6B.200d        200  Wikipedia+Gigaword 5 (6B)           400K   
+14        GloVe.6B.300d        300  Wikipedia+Gigaword 5 (6B)           400K   
+15       GloVe.42B.300d        300          Common Crawl(42B)           1.9M   
+16      GloVe.840B.300d        300         Common Crawl(840B)           2.2M   
+17    GloVe.Twitter.25d         25               Twitter(27B)           1.2M   
+18    GloVe.Twitter.50d         50               Twitter(27B)           1.2M   
+19   GloVe.Twitter.100d        100               Twitter(27B)           1.2M   
+20   GloVe.Twitter.200d        200               Twitter(27B)           1.2M   
+21  word2vec.GoogleNews        300          Google News(100B)           3.0M 
 
->>> chakin.download(name='en-fastText', save_path='model.vec')
+>>> chakin.download(name='fastText(en)', save_dir='./')
 ```
 
 # Supported vectors
