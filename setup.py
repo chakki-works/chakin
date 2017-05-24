@@ -15,7 +15,8 @@ setup(
     url = "https://github.com/chakki-works/chakin",
     install_requires=[
         "pandas>=0.20.1",
-        "progressbar2>=3.20.0"
+        "progressbar2>=3.20.0",
+        "six>=1.10.0"
     ],
     package_data={
         '': ['*.csv'],

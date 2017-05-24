@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 import os
-import urllib.request
+#import urllib.request
 
 import pandas as pd
 from progressbar import Bar, ETA, FileTransferSpeed, ProgressBar, Percentage, RotatingMarker
+from six.moves.urllib.request import urlretrieve
 
 
 def load_datasets(path=os.path.join(os.path.dirname(__file__), 'datasets.csv')):
@@ -30,8 +31,9 @@ def download(name, save_dir='./'):
 
     file_name = url.split('/')[-1]
     save_path = os.path.join(save_dir, file_name)
-    urllib.request.urlretrieve(url, save_path, reporthook=dlProgress)
+    path, _ = urlretrieve(url, save_path, reporthook=dlProgress)
     pbar.finish()
+    return path
 
 
 def search(lang=''):
