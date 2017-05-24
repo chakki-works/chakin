@@ -13,6 +13,11 @@ def load_datasets(path=os.path.join(os.path.dirname(__file__), 'datasets.csv')):
 
 
 def download(name, save_dir='./'):
+    """Download specified name's pre-trained word vector
+    :param name: str, default ``None``
+    :param save_dir: str, default './'
+    :return: file path for downloaded file
+    """
     df = load_datasets()
     row = df[df.Name==name]
     url = ''.join(row.URL)
@@ -37,6 +42,11 @@ def download(name, save_dir='./'):
 
 
 def search(lang=''):
+    """Search pre-trained word vectors by their language
+    :param lang: str, default ''
+    :return: None
+        print search result as pandas DataFrame
+    """
     df = load_datasets()
     if lang == '':
         print(df[['Name', 'Dimension', 'Corpus', 'VocabularySize', 'Method', 'Language', 'Author']])
