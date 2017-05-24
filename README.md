@@ -72,4 +72,5 @@ So far, chakin supports following word vectors:
 | GloVe.Twitter.50d   | 50        | Twitter(27B)              | 1.2M           | GloVe    | English    | Stanford | [link](http://nlp.stanford.edu/data/glove.twitter.27B.zip)                          | 
 | GloVe.Twitter.100d  | 100       | Twitter(27B)              | 1.2M           | GloVe    | English    | Stanford | [link](http://nlp.stanford.edu/data/glove.twitter.27B.zip)                          | 
 | GloVe.Twitter.200d  | 200       | Twitter(27B)              | 1.2M           | GloVe    | English    | Stanford | [link](http://nlp.stanford.edu/data/glove.twitter.27B.zip)                          | 
-| word2vec.GoogleNews | 300       | Google News(100B)         | 3.0M           | word2vec | English    | Google   | [link](https://s3.amazonaws.com/mordecai-geo/GoogleNews-vectors-negative300.bin.gz) | 
+| word2vec.GoogleNews | 300       | Google News(100B)         | 3.0M           | word2vec | English    | Google   | [link](https://s3.amazonaws.com/mordecai-geo/GoogleNews-vectors-negative300.bin.gz) |
+| word2vec.Wiki-NEologd.50d | 50  | Wikipedia                 | 335K           | word2vec + NEologd | Japanese | Shiroyagi Corporation | [link](http://public.shiroyagi.s3.amazonaws.com/latest-ja-word2vec-gensim-model.zip) |
