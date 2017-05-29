@@ -55,6 +55,33 @@ Test: 100% ||               | Time: 0:00:02  60.7 MiB/s
 # Supported vectors
 So far, chakin supports following word vectors:
 
+| Name                | Dimension | Corpus                    | VocabularySize | Method   | Language   |
+|---------------------|-----------|---------------------------|----------------|----------|------------|
+| fastText(ar)        | 300       | Wikipedia                 | 610K           | fastText | Arabic     |
+| fastText(de)        | 300       | Wikipedia                 | 2.3M           | fastText | German     |
+| fastText(en)        | 300       | Wikipedia                 | 2.5M           | fastText | English    |
+| fastText(es)        | 300       | Wikipedia                 | 985K           | fastText | Spanish    |
+| fastText(fr)        | 300       | Wikipedia                 | 1.2M           | fastText | French     |
+| fastText(it)        | 300       | Wikipedia                 | 871K           | fastText | Italian    |
+| fastText(ja)        | 300       | Wikipedia                 | 580K           | fastText | Japanese   |
+| fastText(ko)        | 300       | Wikipedia                 | 880K           | fastText | Korean     |
+| fastText(pt)        | 300       | Wikipedia                 | 592K           | fastText | Portuguese |
+| fastText(ru)        | 300       | Wikipedia                 | 1.9M           | fastText | Russian    |
+| fastText(zh)        | 300       | Wikipedia                 | 330K           | fastText | Chinese    |
+| GloVe.6B.50d        | 50        | Wikipedia+Gigaword 5 (6B) | 400K           | GloVe    | English    |
+| GloVe.6B.100d       | 100       | Wikipedia+Gigaword 5 (6B) | 400K           | GloVe    | English    |
+| GloVe.6B.200d       | 200       | Wikipedia+Gigaword 5 (6B) | 400K           | GloVe    | English    |
+| GloVe.6B.300d       | 300       | Wikipedia+Gigaword 5 (6B) | 400K           | GloVe    | English    |
+| GloVe.42B.300d      | 300       | Common Crawl(42B)         | 1.9M           | GloVe    | English    |
+| GloVe.840B.300d     | 300       | Common Crawl(840B)        | 2.2M           | GloVe    | English    |
+| GloVe.Twitter.25d   | 25        | Twitter(27B)              | 1.2M           | GloVe    | English    |
+| GloVe.Twitter.50d   | 50        | Twitter(27B)              | 1.2M           | GloVe    | English    |
+| GloVe.Twitter.100d  | 100       | Twitter(27B)              | 1.2M           | GloVe    | English    |
+| GloVe.Twitter.200d  | 200       | Twitter(27B)              | 1.2M           | GloVe    | English    |
+| word2vec.GoogleNews | 300       | Google News(100B)         | 3.0M           | word2vec | English    |
+| word2vec.Wiki-NEologd.50d | 50  | Wikipedia                 | 335K           | word2vec + NEologd | Japanese |
+
+<!--
 | Name                | Dimension | Corpus                    | VocabularySize | Method   | Language   | Author   | URL                                                                         | 
 |---------------------|-----------|---------------------------|----------------|----------|------------|----------|-----------------------------------------------------------------------------| 
 | fastText(ar)        | 300       | Wikipedia                 | 610K           | fastText | Arabic     | Facebook | [link](https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ar.vec)             | 
@@ -80,3 +107,4 @@ So far, chakin supports following word vectors:
 | GloVe.Twitter.200d  | 200       | Twitter(27B)              | 1.2M           | GloVe    | English    | Stanford | [link](http://nlp.stanford.edu/data/glove.twitter.27B.zip)                          | 
 | word2vec.GoogleNews | 300       | Google News(100B)         | 3.0M           | word2vec | English    | Google   | [link](https://s3.amazonaws.com/mordecai-geo/GoogleNews-vectors-negative300.bin.gz) |
 | word2vec.Wiki-NEologd.50d | 50  | Wikipedia                 | 335K           | word2vec + NEologd | Japanese | Shiroyagi Corporation | [link](http://public.shiroyagi.s3.amazonaws.com/latest-ja-word2vec-gensim-model.zip) |
+-->
