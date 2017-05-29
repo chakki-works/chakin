@@ -1,5 +1,5 @@
 # chakin
-**chakin** is a downloader for pre-trained word vectors. [Supported many vectors](#Supported-vectors)
+**chakin** is a downloader for pre-trained word vectors. [Supported many vectors](#supported-vectors)
 
 <div align="center">
   <img src="https://github.com/chakki-works/chakin/blob/master/docs/top.jpg?raw=true"><br>
