@@ -1,11 +1,13 @@
 # chakin
+**chakin** is a downloader for pre-trained word vectors. [Supported many vectors](#Supported-vectors)
+
 <div align="center">
-  <img src="https://github.com/chakki-works/chakin/blob/master/docs/top.jpg?raw=true"><br><br>
+  <img src="https://github.com/chakki-works/chakin/blob/master/docs/top.jpg?raw=true"><br>
 </div>
 
 -----------------
 
-**chakin** is a downloader for pre-trained word vectors.
+
 Word vectors are very important for many natural language processing tasks such as document classification, 
 named entity recognition, question answering and so on. 
 In such tasks, you can use the pre-trained word vectors  many people have published.
