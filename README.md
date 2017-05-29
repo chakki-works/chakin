@@ -14,9 +14,18 @@ But it is troublesome that you find and download them by yourself.
 
 
 # Installation
+In Python3.x, simply:
 
 ```shell
 $ pip install chakin
+```
+
+In Python2.x, you need 3 steps:
+
+```shell
+$ git clone https://github.com/chakki-works/chakin.git
+$ cd chakin
+$ python setup.py install
 ```
 
 # Usage
