@@ -7,12 +7,13 @@
 
 -----------------
 
-
+<!--
 Word vectors are very important for many natural language processing tasks such as document classification, 
 named entity recognition, question answering and so on. 
 In such tasks, you can use the pre-trained word vectors  many people have published.
 But it is troublesome that you find and download them by yourself. 
 **This library lets you download pre-trained word vectors without troublesome work.**
+-->
 
 
 # Installation
