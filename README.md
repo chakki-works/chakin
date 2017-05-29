@@ -45,6 +45,8 @@ $ python
 21  word2vec.GoogleNews        300          Google News(100B)           3.0M 
 
 >>> chakin.download(name='fastText(en)', save_dir='./')
+Test: 100% ||               | Time: 0:00:02  60.7 MiB/s
+'./wiki.en.vec'
 ```
 
 # Supported vectors
