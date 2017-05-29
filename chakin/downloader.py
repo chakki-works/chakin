@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import os
-#import urllib.request
 
 import pandas as pd
 from progressbar import Bar, ETA, FileTransferSpeed, ProgressBar, Percentage, RotatingMarker
@@ -35,6 +34,8 @@ def download(name, save_dir='./'):
         pbar.update(min(count * blockSize, totalSize))
 
     file_name = url.split('/')[-1]
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
     save_path = os.path.join(save_dir, file_name)
     path, _ = urlretrieve(url, save_path, reporthook=dlProgress)
     pbar.finish()
