@@ -48,7 +48,7 @@ $ python
 20   GloVe.Twitter.200d        200               Twitter(27B)           1.2M   
 21  word2vec.GoogleNews        300          Google News(100B)           3.0M 
 
->>> chakin.download(number=2, save_dir='./')
+>>> chakin.download(number=2, save_dir='./') # select fastText(en)
 Test: 100% ||               | Time: 0:00:02  60.7 MiB/s
 './wiki.en.vec'
 ```
