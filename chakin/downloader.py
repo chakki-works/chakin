@@ -11,7 +11,7 @@ def load_datasets(path=os.path.join(os.path.dirname(__file__), 'datasets.csv')):
     return datasets
 
 
-def download(number, save_dir='./'):
+def download(number=-1, name="", save_dir='./'):
     """Download pre-trained word vector
     :param number: integer, default ``None``
     :param save_dir: str, default './'
@@ -19,7 +19,11 @@ def download(number, save_dir='./'):
     """
     df = load_datasets()
 
-    row = df.iloc[[number]]
+    if number > -1:
+        row = df.iloc[[number]]
+    elif name:
+        row = df.loc[df["Name"] == name]
+
     url = ''.join(row.URL)
     if not url:
         print('The word vector you specified was not found. Please specify correct name.')
