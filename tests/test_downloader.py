@@ -9,6 +9,7 @@ from chakin.downloader import load_datasets, download
 
 class TestDownloader(unittest.TestCase):
 
+    name = 'word2vec.Wiki-NEologd.50d'
     number = 22  # 'word2vec.Wiki-NEologd.50d'
 
     def test_load_datasets(self):
@@ -17,6 +18,11 @@ class TestDownloader(unittest.TestCase):
 
     def test_download_default(self):
         path = download(number=self.number)
+        self.assertTrue(os.path.exists(path))
+        os.remove(path)
+
+    def test_download_by_name(self):
+        path = download(name=self.name)
         self.assertTrue(os.path.exists(path))
         os.remove(path)
 
