@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="chakin",
-    version="0.0.7",
+    version="0.0.8",
     description="Downloader for pre-trained word vectors",
     keywords=["machine learning",
               "natural language processing",
