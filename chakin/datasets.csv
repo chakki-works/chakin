@@ -1,15 +1,15 @@
 Name,Dimension,Corpus,VocabularySize,Method,Language,Paper,Author,URL
-fastText(ar),300,Wikipedia,610K,fastText,Arabic,Enriching Word Vectors with Subword Information,Facebook,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ar.vec
-fastText(de),300,Wikipedia,2.3M,fastText,German,Enriching Word Vectors with Subword Information,Facebook,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.de.vec
-fastText(en),300,Wikipedia,2.5M,fastText,English,Enriching Word Vectors with Subword Information,Facebook,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.en.vec
-fastText(es),300,Wikipedia,985K,fastText,Spanish,Enriching Word Vectors with Subword Information,Facebook,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.es.vec
-fastText(fr),300,Wikipedia,1.2M,fastText,French,Enriching Word Vectors with Subword Information,Facebook,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.fr.vec
-fastText(it),300,Wikipedia,871K,fastText,Italian,Enriching Word Vectors with Subword Information,Facebook,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.it.vec
-fastText(ja),300,Wikipedia,580K,fastText,Japanese,Enriching Word Vectors with Subword Information,Facebook,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ja.vec
-fastText(ko),300,Wikipedia,880K,fastText,Korean,Enriching Word Vectors with Subword Information,Facebook,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ko.vec
-fastText(pt),300,Wikipedia,592K,fastText,Portuguese,Enriching Word Vectors with Subword Information,Facebook,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.pt.vec
-fastText(ru),300,Wikipedia,1.9M,fastText,Russian,Enriching Word Vectors with Subword Information,Facebook,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.ru.vec
-fastText(zh),300,Wikipedia,330K,fastText,Chinese,Enriching Word Vectors with Subword Information,Facebook,https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.zh.vec
+fastText(ar),300,Wikipedia,610K,fastText,Arabic,Enriching Word Vectors with Subword Information,Facebook,https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ar.300.vec.gz
+fastText(de),300,Wikipedia,2.3M,fastText,German,Enriching Word Vectors with Subword Information,Facebook,https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.de.300.vec.gz
+fastText(en),300,Wikipedia,2.5M,fastText,English,Enriching Word Vectors with Subword Information,Facebook,https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.vec.gz
+fastText(es),300,Wikipedia,985K,fastText,Spanish,Enriching Word Vectors with Subword Information,Facebook,https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.es.300.vec.gz
+fastText(fr),300,Wikipedia,1.2M,fastText,French,Enriching Word Vectors with Subword Information,Facebook,https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.fr.300.vec.gz
+fastText(it),300,Wikipedia,871K,fastText,Italian,Enriching Word Vectors with Subword Information,Facebook,https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.it.300.vec.gz
+fastText(ja),300,Wikipedia,580K,fastText,Japanese,Enriching Word Vectors with Subword Information,Facebook,https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ja.300.vec.gz
+fastText(ko),300,Wikipedia,880K,fastText,Korean,Enriching Word Vectors with Subword Information,Facebook,https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ko.300.vec.gz
+fastText(pt),300,Wikipedia,592K,fastText,Portuguese,Enriching Word Vectors with Subword Information,Facebook,https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.pt.300.vec.gz
+fastText(ru),300,Wikipedia,1.9M,fastText,Russian,Enriching Word Vectors with Subword Information,Facebook,https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ru.300.vec.gz
+fastText(zh),300,Wikipedia,330K,fastText,Chinese,Enriching Word Vectors with Subword Information,Facebook,https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.zh.300.vec.gz
 GloVe.6B.50d,50,Wikipedia+Gigaword 5 (6B),400K,GloVe,English,GloVe: Global Vectors for Word Representation,Stanford,http://nlp.stanford.edu/data/glove.6B.zip
 GloVe.6B.100d,100,Wikipedia+Gigaword 5 (6B),400K,GloVe,English,GloVe: Global Vectors for Word Representation,Stanford,http://nlp.stanford.edu/data/glove.6B.zip
 GloVe.6B.200d,200,Wikipedia+Gigaword 5 (6B),400K,GloVe,English,GloVe: Global Vectors for Word Representation,Stanford,http://nlp.stanford.edu/data/glove.6B.zip
